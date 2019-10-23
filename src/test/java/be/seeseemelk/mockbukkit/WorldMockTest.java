@@ -226,10 +226,6 @@ public class WorldMockTest
 		assertTrue("Weather duration should be more than zero", world.getThunderDuration() > 0);
 		assertTrue(world.isThundering());
 	}
-	@Test
-	public void spawnEntityTest(){
-
-	}
 
 	@Test
 	public void spawnZombieTest(){
